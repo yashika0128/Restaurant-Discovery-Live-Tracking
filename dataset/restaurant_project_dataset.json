@@ -1,0 +1,416 @@
+{
+  "restaurants": [
+    {
+      "id": "r001",
+      "name": "Spice Route",
+      "cuisine": [
+        "North Indian",
+        "Chinese"
+      ],
+      "city": "Mathura",
+      "area": "Raman Reti",
+      "rating": 4.5,
+      "ratingCount": 1280,
+      "deliveryTime": 30,
+      "deliveryFee": 30,
+      "priceRange": "₹₹",
+      "isOpen": true,
+      "image": "images/restaurants/spice-route.jpg",
+      "description": "Comforting North Indian and Chinese favourites."
+    },
+    {
+      "id": "r002",
+      "name": "Pizza Corner",
+      "cuisine": [
+        "Italian",
+        "Fast Food"
+      ],
+      "city": "Mathura",
+      "area": "Dampier Nagar",
+      "rating": 4.3,
+      "ratingCount": 940,
+      "deliveryTime": 25,
+      "deliveryFee": 25,
+      "priceRange": "₹₹",
+      "isOpen": true,
+      "image": "images/restaurants/pizza-corner.jpg",
+      "description": "Fresh pizzas, garlic bread and refreshing drinks."
+    },
+    {
+      "id": "r003",
+      "name": "Biryani Junction",
+      "cuisine": [
+        "Biryani",
+        "Mughlai"
+      ],
+      "city": "Mathura",
+      "area": "Krishna Nagar",
+      "rating": 4.6,
+      "ratingCount": 1560,
+      "deliveryTime": 35,
+      "deliveryFee": 35,
+      "priceRange": "₹₹",
+      "isOpen": true,
+      "image": "images/restaurants/biryani-junction.jpg",
+      "description": "Aromatic biryani and Mughlai meals."
+    },
+    {
+      "id": "r004",
+      "name": "Green Bowl",
+      "cuisine": [
+        "Healthy",
+        "Indian"
+      ],
+      "city": "Mathura",
+      "area": "Refinery Road",
+      "rating": 4.4,
+      "ratingCount": 720,
+      "deliveryTime": 28,
+      "deliveryFee": 20,
+      "priceRange": "₹₹",
+      "isOpen": true,
+      "image": "images/restaurants/green-bowl.jpg",
+      "description": "Healthy bowls, salads and light meals."
+    },
+    {
+      "id": "r005",
+      "name": "Burger Lab",
+      "cuisine": [
+        "Burgers",
+        "Fast Food"
+      ],
+      "city": "Mathura",
+      "area": "Govardhan Road",
+      "rating": 4.2,
+      "ratingCount": 610,
+      "deliveryTime": 22,
+      "deliveryFee": 20,
+      "priceRange": "₹",
+      "isOpen": true,
+      "image": "images/restaurants/burger-lab.jpg",
+      "description": "Loaded burgers, fries and shakes."
+    },
+    {
+      "id": "r006",
+      "name": "Chai & Snacks",
+      "cuisine": [
+        "Cafe",
+        "Indian Snacks"
+      ],
+      "city": "Mathura",
+      "area": "Janma Bhoomi",
+      "rating": 4.7,
+      "ratingCount": 1890,
+      "deliveryTime": 20,
+      "deliveryFee": 15,
+      "priceRange": "₹",
+      "isOpen": true,
+      "image": "images/restaurants/chai-snacks.jpg",
+      "description": "Tea, coffee and Indian evening snacks."
+    }
+  ],
+  "menuItems": [
+    {
+      "id": "m001",
+      "restaurantId": "r001",
+      "name": "Paneer Butter Masala",
+      "category": "Main Course",
+      "price": 220,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/paneer-butter-masala.jpg"
+    },
+    {
+      "id": "m002",
+      "restaurantId": "r001",
+      "name": "Veg Hakka Noodles",
+      "category": "Chinese",
+      "price": 180,
+      "isVeg": true,
+      "isPopular": false,
+      "available": true,
+      "image": "images/food/hakka-noodles.jpg"
+    },
+    {
+      "id": "m003",
+      "restaurantId": "r001",
+      "name": "Butter Naan",
+      "category": "Breads",
+      "price": 45,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/butter-naan.jpg"
+    },
+    {
+      "id": "m004",
+      "restaurantId": "r002",
+      "name": "Margherita Pizza",
+      "category": "Pizza",
+      "price": 249,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/margherita.jpg"
+    },
+    {
+      "id": "m005",
+      "restaurantId": "r002",
+      "name": "Farmhouse Pizza",
+      "category": "Pizza",
+      "price": 349,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/farmhouse.jpg"
+    },
+    {
+      "id": "m006",
+      "restaurantId": "r002",
+      "name": "Garlic Bread",
+      "category": "Sides",
+      "price": 149,
+      "isVeg": true,
+      "isPopular": false,
+      "available": true,
+      "image": "images/food/garlic-bread.jpg"
+    },
+    {
+      "id": "m007",
+      "restaurantId": "r003",
+      "name": "Chicken Biryani",
+      "category": "Biryani",
+      "price": 279,
+      "isVeg": false,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/chicken-biryani.jpg"
+    },
+    {
+      "id": "m008",
+      "restaurantId": "r003",
+      "name": "Veg Biryani",
+      "category": "Biryani",
+      "price": 229,
+      "isVeg": true,
+      "isPopular": false,
+      "available": true,
+      "image": "images/food/veg-biryani.jpg"
+    },
+    {
+      "id": "m009",
+      "restaurantId": "r004",
+      "name": "Paneer Protein Bowl",
+      "category": "Bowls",
+      "price": 249,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/protein-bowl.jpg"
+    },
+    {
+      "id": "m010",
+      "restaurantId": "r004",
+      "name": "Garden Salad",
+      "category": "Salads",
+      "price": 179,
+      "isVeg": true,
+      "isPopular": false,
+      "available": true,
+      "image": "images/food/garden-salad.jpg"
+    },
+    {
+      "id": "m011",
+      "restaurantId": "r005",
+      "name": "Classic Veg Burger",
+      "category": "Burgers",
+      "price": 159,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/veg-burger.jpg"
+    },
+    {
+      "id": "m012",
+      "restaurantId": "r005",
+      "name": "Chicken Cheese Burger",
+      "category": "Burgers",
+      "price": 229,
+      "isVeg": false,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/chicken-burger.jpg"
+    },
+    {
+      "id": "m013",
+      "restaurantId": "r006",
+      "name": "Masala Chai",
+      "category": "Beverages",
+      "price": 50,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/masala-chai.jpg"
+    },
+    {
+      "id": "m014",
+      "restaurantId": "r006",
+      "name": "Samosa",
+      "category": "Snacks",
+      "price": 30,
+      "isVeg": true,
+      "isPopular": true,
+      "available": true,
+      "image": "images/food/samosa.jpg"
+    }
+  ],
+  "offers": [
+    {
+      "id": "o001",
+      "title": "WELCOME50",
+      "description": "₹50 off on orders above ₹299",
+      "type": "flat",
+      "value": 50,
+      "minOrder": 299,
+      "active": true
+    },
+    {
+      "id": "o002",
+      "title": "FOOD20",
+      "description": "20% off up to ₹100 on orders above ₹399",
+      "type": "percent",
+      "value": 20,
+      "maxDiscount": 100,
+      "minOrder": 399,
+      "active": true
+    },
+    {
+      "id": "o003",
+      "title": "FREEDEL",
+      "description": "Free delivery on orders above ₹499",
+      "type": "delivery",
+      "value": 0,
+      "minOrder": 499,
+      "active": true
+    }
+  ],
+  "orderStatusFlow": [
+    {
+      "key": "placed",
+      "label": "Order Placed",
+      "description": "Your order has been received.",
+      "durationSeconds": 5
+    },
+    {
+      "key": "preparing",
+      "label": "Preparing",
+      "description": "The restaurant is preparing your food.",
+      "durationSeconds": 8
+    },
+    {
+      "key": "out_for_delivery",
+      "label": "Out for Delivery",
+      "description": "Your delivery partner is on the way.",
+      "durationSeconds": 8
+    },
+    {
+      "key": "delivered",
+      "label": "Delivered",
+      "description": "Your order has been delivered.",
+      "durationSeconds": 0
+    }
+  ],
+  "sampleOrders": [
+    {
+      "id": "ORD1001",
+      "userId": "U001",
+      "restaurantId": "r002",
+      "items": [
+        {
+          "menuItemId": "m004",
+          "quantity": 2
+        },
+        {
+          "menuItemId": "m006",
+          "quantity": 1
+        }
+      ],
+      "subtotal": 647,
+      "deliveryFee": 25,
+      "discount": 50,
+      "total": 622,
+      "status": "out_for_delivery",
+      "placedAt": "2026-09-20T09:30:00+05:30",
+      "deliveryAddress": "Mathura, Uttar Pradesh",
+      "courier": {
+        "name": "Aman",
+        "lat": 27.4924,
+        "lng": 77.6737
+      },
+      "destination": {
+        "lat": 27.4929,
+        "lng": 77.6748
+      }
+    },
+    {
+      "id": "ORD1000",
+      "userId": "U001",
+      "restaurantId": "r001",
+      "items": [
+        {
+          "menuItemId": "m001",
+          "quantity": 1
+        },
+        {
+          "menuItemId": "m003",
+          "quantity": 2
+        }
+      ],
+      "subtotal": 310,
+      "deliveryFee": 30,
+      "discount": 0,
+      "total": 340,
+      "status": "delivered",
+      "placedAt": "2026-09-18T19:20:00+05:30",
+      "deliveryAddress": "Mathura, Uttar Pradesh"
+    }
+  ],
+  "users": [
+    {
+      "id": "U001",
+      "name": "Demo User",
+      "phone": "9999999999",
+      "email": "demo@example.com"
+    }
+  ],
+  "help": {
+    "faqs": [
+      {
+        "id": "f001",
+        "question": "How do I place an order?",
+        "answer": "Choose a restaurant, add items to the cart, open checkout and select Place Order."
+      },
+      {
+        "id": "f002",
+        "question": "How do I track my order?",
+        "answer": "Open Live Tracking from the order confirmation or Orders page."
+      },
+      {
+        "id": "f003",
+        "question": "Can I change item quantity?",
+        "answer": "Yes. Use the + and - controls in the cart before placing the order."
+      },
+      {
+        "id": "f004",
+        "question": "Is the tracking real-time GPS?",
+        "answer": "No. The project demonstrates a simulated tracking experience using predefined order stages and a local map view."
+      },
+      {
+        "id": "f005",
+        "question": "How can I contact support?",
+        "answer": "Use the Help page to view support information and FAQs."
+      }
+    ]
+  }
+}
